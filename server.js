@@ -9,7 +9,7 @@ const carRoutes = require("./routes/carRoutes");
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://car-management-frontend-one.vercel.app",
   // Your frontend domain
   credentials: true,  // Allow credentials (cookies)
 }));
